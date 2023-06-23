@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-content{
+    margin-left: 150px;
+}
+.hero-content .title-1{
+    color: #3957FF;
+    margin-top: 30px;
+}
+.hero-content .title-2{
+    font-weight: bold;  
+}
+.hero-content .content{
+    width: 500px;
+}
+.hero-content .hero-btn{
+    background-color: #122857;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 50px;
+    margin-top: 30px;
+}
+.hero-content .hero-btn:hover{
+    background-color: #3957FF;
+}
+.hero-image img{
+    width: 700px;
+    height: 630px;
+
+}
