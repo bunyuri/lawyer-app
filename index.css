@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 body{
     font-family: 'Josefin Sans', sans-serif;
-}
-.hero{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    background: url('hero-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero-content{
-    margin-left: 150px;
+    margin-top: 250px;
+    margin-left: 180px;
 }
 .hero-content .title-1{
     color: #3957FF;
     margin-top: 30px;
 }
 .hero-content .title-2{
-    font-weight: bold;  
+    font-size: 28px;
+    font-weight: bold;
+    color: #212025;  
 }
 .hero-content .content{
+    font-size: 20px;
     width: 500px;
+    color: #212025;
 }
 .hero-content .hero-btn{
     background-color: #122857;
@@ -28,6 +30,7 @@ body{
     width: 140px;
     height: 50px;
     margin-top: 30px;
+    font-weight: bold;
 }
 .hero-content .hero-btn:hover{
     background-color: #3957FF;
@@ -35,5 +38,4 @@ body{
 .hero-image img{
     width: 700px;
     height: 630px;
-
 }
