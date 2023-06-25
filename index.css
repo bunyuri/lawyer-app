@@ -14,7 +14,7 @@ body{
     margin-top: 30px;
 }
 .hero-content .title-2{
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     color: #212025;  
 }
@@ -29,13 +29,9 @@ body{
     color: white;
     width: 140px;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 15px;
     font-weight: bold;
 }
 .hero-content .hero-btn:hover{
     background-color: #3957FF;
-}
-.hero-image img{
-    width: 700px;
-    height: 630px;
 }
