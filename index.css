@@ -96,7 +96,11 @@ body{
 =======
     color: #060D11;
     font-size: 13px;
+<<<<<<< HEAD
 >>>>>>> bf0d3c5 (feat:resolved css conflict)
+=======
+   
+>>>>>>> 001d650 (feat: update practice cover)
 }
 .btn{
     display: flex;
@@ -151,6 +155,9 @@ body{
      display: flex;
      flex-direction: column;
 }
+
+
+
 
 
 .practice-cover{
