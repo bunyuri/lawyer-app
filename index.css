@@ -3,6 +3,15 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
+=======
+}
+.hero-content{
+    background: url('hero-img.png');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+>>>>>>> 0821e97 (fix: backgroung height)
     width: 100%;
     height: 100%;
     
