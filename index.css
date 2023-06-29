@@ -50,6 +50,7 @@ body{
 }
 
 .nav{
+<<<<<<< HEAD
     display: flex;
     flex-direction:row;
     justify-content: space-around;
@@ -57,12 +58,26 @@ body{
     align-items: center;
     
 
+=======
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 82px;
+    margin-top: -10px;
+>>>>>>> bf0d3c5 (feat:resolved css conflict)
 }
 .logo{
     display: flex;
     flex-direction: row;
     width: 17px;
     height: 40px;
+<<<<<<< HEAD
+=======
+    margin-left: 70px;
+>>>>>>> bf0d3c5 (feat:resolved css conflict)
 }
 .nav1{
     display: flex;
@@ -74,24 +89,39 @@ body{
     flex-direction: row;
     margin-left: 40px;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 16px;
     color: #043a58;
     
+=======
+    color: #060D11;
+    font-size: 13px;
+>>>>>>> bf0d3c5 (feat:resolved css conflict)
 }
 .btn{
     display: flex;
     flex-direction: row;
-    background-color: #3957ff;
+    background-color: #3957FF;
     align-items: center;
     width: 140px;
     height: 40px;
     justify-content: center;
     border: none;
+<<<<<<< HEAD
     color: #ffffff;
     font-size: 14px
+=======
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-size: 12px
+>>>>>>> bf0d3c5 (feat:resolved css conflict)
 }
 .nav .nav1 li a:hover{
-    color: #3957ff;
+    color: #3957FF;
+}
+.dropdown-container:hover .dropdown{
+    display: block;
+    position: absolute;
 }
 
 .dropdown-container:hover .dropdown{
@@ -105,7 +135,11 @@ body{
     padding: 0px;
     margin: 0px;
     text-align: center;
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: #FFFFFF;
+>>>>>>> bf0d3c5 (feat:resolved css conflict)
     opacity:0.8;
 }
 .dropdown li a{
@@ -117,5 +151,97 @@ body{
      display: flex;
      flex-direction: column;
 }
+
+
+.practice-cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.practice-area{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.practice-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 530px;
+}
+.practice-area .practice-text .title-1{
+    color: #3957FF; 
+    font-size: 18px;
+}
+.practice-area .practice-text .title-2{
+    font-size: 35px;
+    color: #092C3F; 
+}
+
+.practice-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.practice-card .card{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 280px;
+    border: 1px solid #D3D3D3;
+    padding: 50px;
+    margin: 15px;
+}
+
+.practice-card .card .icon{
+    margin-bottom: 20px;
+}
+
+
+.practice-card .card .icon i{
+    font-size: 40px;
+    color: #3957FF;
+}
+
+.practice-card .card .card-title{
+    color: #620051;
+}
+
+.practice-card .card .card-content{
+    color: #1A1110;
+    line-height: 1.5;
+}
+
+.practice-card .card .card-btn{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-btn i{
+    font-size: 18px;
+}
+
+.practice-card .card .card-btn:hover{
+    color: #3957FF;
+}
+
+.practice-card .card .card-btn a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1A1110;
+}
+
+.practice-card .card .card-btn a:hover{
+    color: #3957FF;
+}
+
+
+
+
 
 
