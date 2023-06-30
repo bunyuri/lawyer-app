@@ -132,15 +132,17 @@ body{
 .practice-area{
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
+    
 }
 
 .practice-text{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 530px;
+    width: 588px;
+    margin: 15px;
 }
 .practice-area .practice-text .title-1{
     color: #3957FF; 
