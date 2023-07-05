@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <title>Lawyer</title>
+    <script type="text/javascript">
+     var accidentLaw = document.getElementsByClassName("accident-law-menu")
+     var healthLaw = document.getElementsByClassName("health-law-menu")
+     var insuranceLaw = document.getElementsByClassName("insurance-law-menu")
+     var accidentCoverLaw = document.getElementsByClassName("content-cover-accident-law")
+     var healthLaw = document.getElementsByClassName("content-cover-health-law")
+     function showHealthLawContent(){
+        accidentCoverLaw[0].style.display = "none"
+        healthLaw[0].style.display = "flex"
+     }
+    </script>
 </head>
 <body>
     <div class="nav">
@@ -107,8 +118,73 @@
         <p class="page1">Are you Searching For a <br>First-Class Consultant?</p>
         <button class="btn2">contact now</button>
 
+<<<<<<< HEAD
 
     </div>
     
+=======
+<div class="recent-cover">
+    <div class="title-cover">
+        <div class="recent-title">
+            <p class="title-1"> &#9473; &nbsp; OUR RECENT WORK</p>
+            <h1 class="title-2">Reliable, Effective & Wining <br> Law For Customers</h1>
+        </div>
+        <div class="recent-title">
+            <ul>
+                <li class="accident-law-menu"><a href="#">Accident Law</a></li>
+                <li class="health-law-menu" onclick="showHealthLawContent()">Health Law</li>
+                <li class="insurance-law-menu"><a href="#">Insurance Law</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content-cover-accident-law">
+        <div class="column">
+            <div class="content-card">
+                <div class="content-img">
+                    <img src="services1.png.webp" alt="service 1">
+                </div>
+                <div class="card-bg">
+                    <p class="title-1"> &#9473; &nbsp; Car Accident Law</p>
+                    <h3 class="title-2"><a href="#"> Within the construction industry as <br> their overdraft</a></h3>
+                </div>
+            </div>
+             <div class="content-card">
+                <div class="content-img">
+                    <img src="services2.png.webp" alt="service 2">
+                </div>
+                <div class="card-bg">
+                    <p class="title-1"> &#9473; &nbsp; Car Accident Law</p>
+                    <h3 class="title-2"><a href="#"> Within the construction industry as <br> their overdraft</a></h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="content-card">
+                <div class="content-img">
+                    <img src="services3.png.webp" alt="service 3">
+                </div>
+                <div class="card-bg">
+                    <p class="title-1"> &#9473; &nbsp; Car Accident Law</p>
+                    <h3 class="title-2"><a href="#"> Within the construction industry as <br> their overdraft</a></h3>
+                </div>
+            </div>
+            <div class="content-card">
+                <div class="content-img">
+                    <img src="services4.png.webp" alt="service 4">
+                </div>
+                <div class="card-bg">
+                    <p class="title-1"> &#9473; &nbsp; Car Accident Law</p>
+                    <p class="title-2"><a href="#"> Within the construction industry as <br> their overdraft</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+>>>>>>> 07e03af (feat:our-recent-work)
 </body>
 </html>

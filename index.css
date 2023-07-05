@@ -3,7 +3,6 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
     height: 100%; 
 }
 .hero-content{
@@ -286,8 +285,93 @@ body{
     background-color: #007bff;
 }
 
+.recent-cover{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.recent-cover .title-cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.recent-cover .title-cover .title-1{
+    color: #3957FF; 
+    font-size: 18px;
+}
+.recent-cover .title-cover .title-2{
+    font-size: 35px;
+    color: #092C3F;
+}
+.recent-cover .title-cover .recent-title{
+    width: 588px;
+    margin: 15px;
+}
+.recent-cover .title-cover .recent-title ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.recent-cover .title-cover .recent-title ul li{
+    margin: 15px;
+    cursor: pointer;
+}
+.recent-cover .title-cover .recent-title ul li a{
+    text-decoration: none;
+    color: #9D8F96;
+}
+.recent-cover .title-cover .recent-title ul li a:hover{
+    color: #3957FF;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content-card{
+    width: 580px;
+    margin: 20px;
+}
 
+.content-img img{
+    width: 100%;
+}
 
+.content-card .title-1{
+    color: #3957FF;
+}
+.content-card .title-2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.content-card .title-2 a:hover{
+    color: #3957FF;
+}
 
+.content-cover-health-law{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.card-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+    background-color: #F7F9FF;
+    position: relative;
+    width: 80%;
+    height: 150px;
+    
+}
+.card-bg .title-1{
+    margin-left: 30px;
+}
+.card-bg .title-2{
+    margin-left: 30px;
+}
 
